@@ -1,0 +1,39 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of `go build`
+netcli
+/netcli
+
+# Build / test artifacts
+*.log
+*.prof
+*.tmp
+
+# Go vendor
+/vendor/
+
+# Dependency directories (Go Modules)
+/bin/
+/dist/
+/build/
+
+# IDE / editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Coverage files
+coverage.*
+*.cov
